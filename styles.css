@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('background-inicio.jpg'); /* Imagen de fondo inicial */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-image 0.5s ease; /* Transición suave al cambiar la imagen de fondo */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#yes-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#no-button {
+    background-color: #f44336;
+    color: white;
+}
+
+#no-button:hover {
+    background-color: #d32f2f;
+}
+
+.hidden {
+    display: none;
+}
+
+#love-message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ff4081;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 600px; /* Limita el ancho del texto */
+    margin-left: auto;
+    margin-right: auto;
+}
+
